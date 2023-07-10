@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    border: 1px solid;
+    background-color: rgb(220, 239, 239);
+    margin: 20px 50px;
+}
+.col-8{
+    margin: 10px 0;
+}
+input {
+    padding: 8px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+.ex1{
+    width: 330px;
+    height: 40px;
+    background-color: rgb(169, 226, 226);
+    text-align: center;
+    border-radius: 5px;
+    line-height: 40px;
+}
+.ex2{
+    width: 330px;
+    height: 40px;
+    background-color:rgb(231, 187, 202);
+    text-align: left;
+    border-radius: 5px;
+    margin: 10px 0;
+    line-height: 40px;
+}
+.total{
+    background-color: rgb(214, 93, 93);
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    transition: all .5s;
+}
+.ex3{
+    width: 330px;
+    height: 40px;
+    background-color: rgb(228, 165, 187);
+    text-align: left;
+    border-radius: 5px;
+    margin: 10px 0;
+    line-height: 40px;
+}
+.click{
+    background-color: rgb(70, 212, 70);
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    transition: all .5s;
+}
+.ex4{
+    background-color: rgb(96, 210, 96);
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 0;
+    transition: all .5s;
+}
+button:hover{
+    background-color: rgb(65, 62, 62);
+    color: #fff;
+}
+.add {
+    width: 350px;
+    height: auto;
+    border: 15px solid rgb(39, 39, 58);
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Loop_b6</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+        <!-- boostrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <!-- link css  -->
+        <link rel="stylesheet" href="./style.css">
+    <body>
+        <div class="container row">
+            <section class="col-8">
+                <h2>Bài 1</h2>
+                <div class="result ex1">
+                    <span id="small-int"></span>
+                </div>
+            </section>
+            <section class="col-8">
+                <h2>Bài 2</h2>
+                <input id="x" type="num" placeholder="Nhập Số x"><br>
+                <input id="n" type="num" placeholder="Nhập Số n"><br>
+                <div class="result ex2">
+                    <span id="sum"></span>
+                </div>
+                <button onclick="sum()" class="total">Tính Tổng</button>
+            </section>
+            <section class="col-8">
+                <h2>Bài 3</h2>
+                <input id="factor-int" type="num" placeholder="Nhập Số n"><br>
+                <div class="result ex3">
+                    <span id="factorial"></span>
+                </div>
+                <button onclick="factorial()" class="click">Tính Giai Thừa</button>
+            </section>
+            <section class="col-8">
+                <h2>Bài 4</h2>
+                <div class="add" id="add"></div>
+                <button onclick="add_div()" class="ex4">Tạo Div</button>
+            </section>
+        </div>
+        
+        <!-- boostrap  -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        <!-- link js  -->
+        <script src="./index.js"></script>
+    </body>
+</html>
